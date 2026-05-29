@@ -34,7 +34,7 @@ with io.open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
 setup(
     name="commonmark",
     packages=find_packages(exclude=['tests']),
-    version="0.9.1",
+    version="0.9.2",
     license="BSD-3-Clause",
     description="Python parser for the CommonMark Markdown spec",
     long_description=long_description,
@@ -42,8 +42,6 @@ setup(
     author="Bibek Kafle <bkafle662@gmail.com>, " +
     "Roland Shoemaker <rolandshoemaker@gmail.com>",
     author_email="rolandshoemaker@gmail.com",
-    maintainer="Nikolas Nyby",
-    maintainer_email="nikolas@gnu.org",
     url="https://github.com/rtfd/commonmark.py",
     keywords=["markup", "markdown", "commonmark"],
     entry_points={
